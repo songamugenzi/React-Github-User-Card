@@ -1,0 +1,56 @@
+.App {
+  
+  text-align: left;
+}
+
+.App-header {
+  background-color: #282c34;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  color: white;
+}
+
+.App-header p {
+  font-size: 1.8rem;
+  align-self: center;
+}
+
+.user-content {
+  display: flex;
+  justify-content: space-between;
+  margin: 4% 20%;
+}
+
+.user-card {
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+}
+
+.follower-card {
+  width: 33%;
+}
+
+img {
+  width: 18rem;
+  border-radius: 5px;
+}
+
+.follower-details {
+  margin-bottom: 15%;
+}
+
+.follower-details h2 {
+  margin-top: 3%;
+}
+
+.follower-details p {
+  margin-top: 3%;
+}
+
+.user-details h2 {
+  color: lightseagreen;
+  margin-top: 3%;
+}
